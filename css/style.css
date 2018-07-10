@@ -1,6 +1,14 @@
 .col {
-  height: 100px;
+
+  /* background-color: blue; */
+  border: solid 2px black; }
+
+.bigcol {
+  height: 500px;
   background-color: blue;
   border: solid 2px black; }
+
+nav {
+  background-color: #3097D1; }
 
 /*# sourceMappingURL=style.css.map */
