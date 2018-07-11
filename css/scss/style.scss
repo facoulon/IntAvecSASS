@@ -3,6 +3,12 @@ $margeDoc:4rem;
 $ImgRond : 50%;
 $borderG :1px solid grey;
 
+.container-fluid{
+    background-color: #f5f8fa;
+}
+.container-fluid .row .col *{
+    background-color: white;
+}
 .col {
   min-height: 50px;
   // background-color: blue;
@@ -22,6 +28,7 @@ $borderG :1px solid grey;
 border-bottom: $borderG;
 border-left: $borderG;
 border-right: $borderG;
+padding-right: 1rem;
 }
 nav {
     a {
@@ -43,6 +50,7 @@ nav {
 }
 .photoId {
 border-radius:$ImgRond;
+padding: 1rem;
 }
 .gpePhoto {
   box-sizing: content-box;
@@ -63,9 +71,32 @@ padding-left: 0!important;
 .gr2 {
 padding-right:0!important;
 }
+.comment{
 
+    img {
+        float: left;
+        border-radius:$ImgRond;
+        margin-right: 1em;
+    }
+    p{
+        width: 100%;
+        padding-top: 2rem;
 
+    }
+    h3{
+        padding-top: 1em;
+        font-size: 1.25em;
+        font-weight: bold;
+    }
+}
 
+.post{
+    h2{
+        font-size: 1.25em;
+        font-weight: bold;
+            padding-top: 1em;
+    }
+}
 
 
 @media screen and (min-width: 992px) {
