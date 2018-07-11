@@ -42,9 +42,11 @@
     </div>
   </nav>
 
-  <div class="container-fluid">
-    <div class="row no-gutters">
-      <div class="col col-12 order-md-1 col-md-8 col-lg-6">
+  <div class="container-fluid"> <!-- div container-fluid -->
+
+    <div class="row no-gutters"> <!-- div row-main -->
+
+      <div class="col col-12 order-md-1 col-md-8 col-lg-6"> <!-- div col-main -->
         <section class="message">
           <div class="input-group mb-3">
             <input type="text" class="form-control" placeholder="Message" aria-label="Recipient's username" aria-describedby="basic-addon2">
@@ -52,8 +54,8 @@
               <button class="btn btn-outline-secondary" type="button"><i class="fas fa-camera"></i></button>
             </div>
           </div>
-
         </section>
+
         <article class="first">
           <div class="row no-gutters">
             <div class="col col-2">
@@ -64,16 +66,16 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
                 aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
               <div class="row no-gutters">
-                <div class="col gpePhoto col-7">
+                <div class="col gpePhoto col-12 col-lg-7">
                   <img class="gr1 max-width:100%" src="http://via.placeholder.com/1920x1080">
                 </div>
-                <div class="col gpePhoto col-5">
+                <div class="col gpePhoto col 12 col-lg-5">
                   <img class="gr2 max-width:100%" src="http://via.placeholder.com/1920x1080">
                 </div>
-                <div class="col gpePhoto col-5">
+                <div class="col gpePhoto col-12 col-lg-5">
                   <img class="gr1 max-width:100%" src="http://via.placeholder.com/1920x1080">
                 </div>
-                <div class="col gpePhoto col-7">
+                <div class="col gpePhoto col-12 col-lg-7">
                   <img class="gr2 max-width:100%" src="http://via.placeholder.com/1920x1080">
                 </div>
               </div>
@@ -96,35 +98,44 @@
             </div>
           </div>
         </article>
-        <article class="">
+        <article class="first">
           <div class="row no-gutters">
             <div class="col col-2">
-
+              <img class="img-fluid photoId" src="http://via.placeholder.com/80x80">
             </div>
-            <div class="col col-10">
-
+            <div class=" post col col-10">
+              <h2>Jacob Thornton</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
           </div>
-
         </article>
-        <article class="">
+        <article class="first">
           <div class="row no-gutters">
             <div class="col col-2">
-
+              <img class="img-fluid photoId" src="http://via.placeholder.com/80x80">
             </div>
-            <div class="col col-10">
+            <div class=" post col col-10">
+              <h2>Mark Otto</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <img class="img-fluid" src="http://via.placeholder.com/500x300">
+              </section>
 
+               <section class="comment">
+                 <img  class="" src="http://via.placeholder.com/50x50">
+                 <h3>Dave Gamache:</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                 </section>
+             </div>
             </div>
-          </div>
-
         </article>
-      </div>
+      </div> <!-- div col-main -->
 
-
-      <div class=" col col-12 col-md-4 col-lg-3">aside gauche
+      <div class=" col col-12 col-md-4 col-lg-3"><!-- div col-aside-left -->
         <div class="row no-gutters">
           <div class="col col-12">
-
+            <img class="img-fluid backPhoto" src="http://via.placeholder.com/100x100">
           </div>
           <div class="col col-6 col-md-12">
 
@@ -133,7 +144,11 @@
 
           </div>
         </div>
-      </div>
+      </div> <!-- div col-aside-left -->
+
+
+
+
       <div class="col col-12 order-md-1 col-lg-3">aside droit
         <div class="row no-gutters">
           <div class="col col-6 col-lg-12">
@@ -146,7 +161,6 @@
 
           </div>
         </div>
-      </div>
     </div>
 
 
@@ -154,10 +168,9 @@
 
 
 
+  </div> <!-- div row-main -->
+</div> <!-- div container-fluid -->
 
-
-  </div>
-  <!-- div container -->
 
 
 

@@ -47,30 +47,29 @@ nav a img {
     width: 100%;
     max-width: 100%;
     max-height: 100%;
-    padding: 0.5rem; }
+    padding: 1rem 0; }
 
-.gr1 {
-  padding-left: 0 !important; }
-
-.gr2 {
-  padding-right: 0 !important; }
-
-.comment img {
-  float: left;
-  border-radius: 50%;
-  margin-right: 1em; }
-.comment p {
-  width: 100%;
-  padding-top: 2rem; }
-.comment h3 {
-  padding-top: 1em;
-  font-size: 1.25em;
-  font-weight: bold; }
+.comment {
+  padding-top: 2em; }
+  .comment img {
+    float: left;
+    border-radius: 50%;
+    margin-right: 1em; }
+  .comment p {
+    width: 100%;
+    padding-top: 1rem; }
+  .comment h3 {
+    padding-top: 1em;
+    font-size: 1.25em;
+    font-weight: bold; }
 
 .post h2 {
   font-size: 1.25em;
   font-weight: bold;
   padding-top: 1em; }
+
+.backPhoto {
+  width: 100%; }
 
 @media screen and (min-width: 992px) {
   .container-fluid {
@@ -81,6 +80,23 @@ nav a img {
   .navbar {
     background-color: #3097D1;
     padding-left: 4rem;
-    padding-right: 4rem; } }
+    padding-right: 4rem; }
+
+  .gpePhoto {
+    box-sizing: content-box;
+    height: 300px;
+    padding: 0; }
+    .gpePhoto img {
+      height: 100%;
+      width: 100%;
+      max-width: 100%;
+      max-height: 100%;
+      padding: 0.5rem; }
+
+  .gr1 {
+    padding-left: 0 !important; }
+
+  .gr2 {
+    padding-right: 0 !important; } }
 
 /*# sourceMappingURL=style.css.map */
