@@ -1,11 +1,8 @@
 .container-fluid {
   background-color: #f5f8fa; }
 
-.container-fluid .row .col * {
+.container-fluid .row .col .row * {
   background-color: white; }
-
-.col {
-  min-height: 50px; }
 
 .container-fluid {
   padding: 0; }
@@ -21,7 +18,8 @@
   border-bottom: 1px solid grey;
   border-left: 1px solid grey;
   border-right: 1px solid grey;
-  padding-right: 1rem; }
+  padding-right: 1rem;
+  background-color: white; }
 
 nav a img {
   width: 5rem; }
@@ -70,6 +68,16 @@ nav a img {
 
 .backPhoto {
   width: 100%; }
+
+.asideArticle {
+  margin-bottom: 2rem;
+  margin-right: 2rem; }
+
+.asideArticle:nth-child(n+1) {
+  background-color: red; }
+
+.row-main {
+  justify-content: space-between; }
 
 @media screen and (min-width: 992px) {
   .container-fluid {
