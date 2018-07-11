@@ -6,8 +6,18 @@
   padding: 0; }
 
 .message {
-  width: 95%;
   margin: 1rem; }
+
+nav a img {
+  width: 5rem; }
+
+.collapse img {
+  margin-left: 1rem;
+  border-radius: 50%; }
+.collapse i {
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  color: white; }
 
 @media screen and (min-width: 992px) {
   .container-fluid {

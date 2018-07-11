@@ -13,14 +13,31 @@ $margeDoc:4rem;
 
 
 .message {
-    width: 95%;
-    margin:  1rem;
-
-
-
+  margin:  1rem;
+}
+.navbar {
 
 }
 
+nav {
+    a {
+      img {
+      width: 5rem;
+    }
+  }
+}
+
+.collapse {
+  img {
+    margin-left: 1rem;
+    border-radius: 50%;
+    }
+    i{
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    color: white;
+    }
+}
 
 
 
@@ -30,15 +47,15 @@ $margeDoc:4rem;
 
 
 @media screen and (min-width: 992px) {
-.container-fluid {
+  .container-fluid {
+    padding-left: $margeDoc;
+    padding-right: $margeDoc;
+    padding-top: $margeElements;
+  }
+  .navbar {
+  background-color: #3097D1;
   padding-left: $margeDoc;
   padding-right: $margeDoc;
-  padding-top: $margeElements;
-}
-.navbar {
-background-color: #3097D1;
-padding-left: $margeDoc;
-padding-right: $margeDoc;
-}
+    }
 
 }
