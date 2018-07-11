@@ -1,13 +1,59 @@
+$margeElements:2rem;
+$margeDoc:4rem;
+
 .col {
-  height: 50px;
+  min-height: 50px;
   background-color: blue;
   border: solid 2px black;
 }
-.bigcol{
-    height: 500px;
-    background-color: blue;
-    border: solid 2px black;
+
+.container-fluid {
+  padding: 0;
 }
-nav {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 992px) {
+.container-fluid {
+  padding-left: $margeDoc;
+  padding-right: $margeDoc;
+  padding-top: $margeElements;
+}
+.navbar {
 background-color: #3097D1;
+padding-left: $margeDoc;
+padding-right: $margeDoc;
+}
+
 }
